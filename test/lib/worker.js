@@ -1,5 +1,5 @@
 import test from 'ava';
-import uglify from 'uglify-js';
+import uglify from 'uglify-es';
 import sinon from 'sinon';
 import tmpFile from '../../lib/tmp-file';
 import cache from '../../lib/cache';
